@@ -14,7 +14,9 @@ Main Tasks:
 
 Questions:
 1. What is a variable?
+A thing that can change
 2. What is a string?
+A series of characters that is used to represent text
 
 Extension Tasks:
 1. Try creating two string variables and using them in the same message.
@@ -34,7 +36,9 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            
+            string name = "to be a good kitty";
+            Console.WriteLine("whats ur job? " +  name);
+            Console.ReadLine();
 
         }
     }
