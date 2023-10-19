@@ -14,8 +14,8 @@ Main Tasks:
 4. Wait for input before closing the program.
 
 Questions:
-1. What does assignment mean? What is the assignment operator?
-2. Explain what Console.ReadLine() does.
+1. What does assignment mean? What is the assignment operator? it assigns a code thing into a code
+2. Explain what Console.ReadLine() does. it waits for imput
 
 Extension Tasks:
 1. Ask for multiple inputs.
@@ -39,7 +39,9 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hey {name}");
+            Console.ReadLine();
         }
     }
 }
