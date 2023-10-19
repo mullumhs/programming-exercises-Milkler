@@ -44,7 +44,10 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            double precisenumber = 6.269;
+            Console.WriteLine("My Precise Number is " + precisenumber);
+            Console.ReadLine();
+            
         }
     }
 }
