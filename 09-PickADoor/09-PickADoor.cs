@@ -46,7 +46,16 @@ namespace ProgrammingExercisesIST
             Console.WriteLine("Pick a Door: 1, 2 or 3");
 
             // Your code goes below here
-
+            string name = "1";
+            if (name == "Jeff")
+            {
+                Console.WriteLine("My name is Jeff!");
+            }
+            else
+            {
+                Console.WriteLine("My name is NOT Jeff!!!");
+                Console.ReadLine();
+            }
         }
     }
 }
