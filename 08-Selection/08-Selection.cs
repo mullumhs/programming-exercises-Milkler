@@ -14,9 +14,9 @@ Main Tasks:
 2. Wait for input before ending the program.
 
 Questions:
-1. What does the < symbol mean?
-2. What does selection mean?
-3. Which part executes if the condition is false (the 'if' part or 'else' part)?
+1. What does the < symbol mean? lower than
+2. What does selection mean? it selects stuff
+3. Which part executes if the condition is false (the 'if' part or 'else' part)? yes
 
 Extension Tasks:
 1. Try using a float or double instead of an integer for the mark.
@@ -54,6 +54,16 @@ namespace ProgrammingExercisesIST
 
             // Your code goes below here
 
+            if (mark >= 50)
+            {
+                Console.WriteLine("Great work pass");
+            }
+
+            else if (mark < 50)
+            {
+                Console.WriteLine("Fail");
+            }
+            Console.ReadLine();
         }
     }
 }
