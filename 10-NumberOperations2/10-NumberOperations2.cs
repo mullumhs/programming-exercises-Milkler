@@ -53,6 +53,40 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
+            Console.WriteLine("Please enter a number for x");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please enter a number for y");
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("What operation do you want to do?");
+            Console.WriteLine("1. Add");
+            Console.WriteLine("2. Subtract");
+            Console.WriteLine("3. Multiply");
+            Console.WriteLine("4. Divide");
+
+            string operation = Console.ReadLine();
+
+            if (operation == "1")
+
+            {
+                Console.WriteLine($"{x} plus {y} = {x + y}");
+            }
+            else if (operation == "2")
+            {
+                Console.WriteLine($"{x} subtract {y} = {x - y}");
+
+
+            }
+            else if (operation == "3")
+            {
+                Console.WriteLine($"{x} times {y} = {x * y}");
+
+            }
+            else if (operation == "4")
+            {
+                Console.WriteLine($"{x} divided by {y} = {x / y}");
+
+            }
 
 
             // Wait for any key before exiting
