@@ -53,6 +53,7 @@ namespace ProgrammingExercisesIST
             Console.WriteLine("1 Area of circle");
             Console.WriteLine("2 Area of rectangle");
             Console.WriteLine("3 Area of triangle");
+            Console.ReadLine();
         }
     }
 }
