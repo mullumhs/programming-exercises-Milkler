@@ -13,6 +13,12 @@ namespace _36_Testing
         static void Main(string[] args)
         {
             // Write your code here
+            
+            Console.WriteLine("Please enter your first name");
+            string name = Console.ReadLine();
+            
+            Console.WriteLine($"Hey {name}");
+            
 
 
 
