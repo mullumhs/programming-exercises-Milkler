@@ -35,7 +35,11 @@ namespace ProgrammingExercisesIST
         {
             // Call the methods here
             MyMethod();
+            bye();
             wait();
+            
+            
+
         }
 
         private static void MyMethod()
@@ -47,8 +51,12 @@ namespace ProgrammingExercisesIST
         {
             Console.ReadLine();
         }
+        static void bye()
+        {
+            Console.WriteLine("Cya Kitty");
+        }
         // Write your methods here
-        static void
+
     }
 }
 
