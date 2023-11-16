@@ -48,9 +48,54 @@ namespace ProgrammingExercisesIST
         {
             // Call the methods here, passing in the required arguments
 
+            Console.WriteLine("Please enter name");
+            string name = Console.ReadLine();
+            helloname(name);
+
+            getx();
+
+            Console.ReadLine();
         }
 
+
         // Write your methods including parameters here
+
+        static void helloname(string name)
+        {
+            Console.WriteLine($"Hello {name}");
+            Console.ReadLine();
+
+        }
+        static double getx()
+        {
+          Console.WriteLine("please enter a number for x");
+            double x = Convert.ToDouble(Console.ReadLine());
+            return x;
+
+        }
+      
+        
+            
+
+
+
+            
+           
+
+        
+         
+
+            
+
+
+
+
+         
+            
+
+
+            
+
 
     }
 }
