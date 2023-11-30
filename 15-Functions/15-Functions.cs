@@ -76,7 +76,12 @@ namespace ProgrammingExercisesIST
         }
 
         // Create your functions here
-
+        private static int MultiplyNumbers() 
+        { 
+        
+        
+        
+        }
 
 
         // This is a function I have written to get a number from the user
