@@ -53,7 +53,11 @@ namespace ProgrammingExercisesIST
             helloname(name);
 
             getx();
-
+            
+            gety();
+            
+            subtractnumbers(x,y);
+            
             Console.ReadLine();
         }
 
@@ -73,28 +77,44 @@ namespace ProgrammingExercisesIST
             return x;
 
         }
-      
-        
+
+        static double gety()
+        {
+            Console.WriteLine("please enter a number for y");
+            double y = Convert.ToDouble(Console.ReadLine());
+            return y;
+
+        }
+
+        static void subtractnumbers(double x, double y) 
+        {
+
+            Console.WriteLine($"{x} - {y} = {x-y}");
+            Console.ReadLine();
             
-
-
-
-            
-           
-
-        
-         
-
-            
+        }
 
 
 
 
-         
-            
 
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
