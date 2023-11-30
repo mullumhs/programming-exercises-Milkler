@@ -56,7 +56,7 @@ namespace ProgrammingExercisesIST
             
             gety();
             
-            subtractnumbers(x,y);
+            subtractnumbers(5,1);
             
             Console.ReadLine();
         }
