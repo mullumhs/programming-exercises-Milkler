@@ -49,7 +49,27 @@ namespace ProgrammingExercisesIST
             // Runs the menu and stores the choice
             string choice = MainMenu();
 
+
             // Write your code here
+
+            if (choice == "1")
+            {
+
+                double miles = convertkmtomiles();
+                Console.WriteLine($"{miles} Miles ");
+            }
+
+            else if (choice == "2")
+            {
+
+                double km = Convertmilestokm();
+                Console.WriteLine($" {km} Km");
+            }
+
+
+
+
+
 
 
             // Wait for key press before exiting
@@ -58,12 +78,26 @@ namespace ProgrammingExercisesIST
 
         // Create your functions here
 
+        static double convertkmtomiles()
+        {
+            double km = GetDistance("km");
+            double miles = (km / 1.6);
+            return miles;
+
+        }
+
+        static double Convertmilestokm()
+        {
+            double miles = GetDistance("Miles");
+            double km = (miles * 1.6);
+            return km;
+        }
 
 
         // Asks the user to enter a distance in the unit specified
         private static double GetDistance(string unit)
         {
-            Console.Write($"Enter distance (in {unit}) to convert: ");
+            Console.Write($"Write distance (in {unit}) to convert: ");
             double distance = int.Parse(Console.ReadLine());
             return distance;
         }
@@ -72,7 +106,7 @@ namespace ProgrammingExercisesIST
         private static string MainMenu()
         {
             Console.Clear();
-            Console.WriteLine("What would you like to do?");
+            Console.WriteLine("Choose what you would like to do?");
             Console.WriteLine("1. Kilometres to Miles");
             Console.WriteLine("2. Miles to Kilometres");
             string choice = Console.ReadLine();
